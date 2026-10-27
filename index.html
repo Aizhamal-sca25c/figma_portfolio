@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aizhamal Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { background: #222222; }
+body { font-family: 'Poppins', Arial, sans-serif; color: #e9e9e9; overflow-x: hidden; }
+#scaler { transform-origin: top left; }
+.frame { position: relative; width: 1440px; height: 3280px; margin: 0 auto; background: #222222; }
+.abs { position: absolute; }
+
+.nav { top: 58px; left: 0; width: 1440px; display: flex; justify-content: center; gap: 62px; font-size: 22px; font-weight: 500; line-height: 30px; }
+.nav a { color: #fff; text-decoration: none; }
+.logo { left: 1299px; top: 31px; width: 100px; height: 100px; }
+
+.hello { left: 95px; top: 328px; font-size: 20px; font-weight: 600; color: #fff; line-height: 28px; }
+.title { left: 95px; top: 381px; font-size: 104px; line-height: 113px; font-weight: 700; color: #b7c1d4; letter-spacing: -1px; }
+.hero-link { left: 95px; top: 622px; font-size: 17px; font-weight: 700; color: #fff; text-decoration: underline; text-underline-offset: 5px; }
+.photo { left: 735px; top: 167px; width: 600px; height: 730px; border-radius: 40px; overflow: hidden; background: linear-gradient(160deg, #3b3f35, #1c1d1a); }
+.photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.h2 { font-size: 68px; line-height: 68px; font-weight: 700; color: #b7c1d4; letter-spacing: -0.5px; white-space: nowrap; }
+.rule { height: 2px; background: #cfd5df; }
+
+.about-text { left: 253px; top: 1015px; width: 975px; font-size: 21px; line-height: 44px; text-align: center; color: #f0f0f0; }
+.skill { top: 1285px; width: 160px; text-align: center; }
+.skill b { display: block; font-size: 28px; line-height: 36px; font-weight: 500; color: #fff; }
+.skill span { display: block; margin-top: 22px; font-size: 9px; line-height: 12px; color: #cfcfcf; padding-bottom: 6px; border-bottom: 1px solid #bdbdbd; }
+
+.why-text { left: 266px; top: 1547px; width: 840px; font-size: 21px; line-height: 44px; color: #f0f0f0; }
+.why-text p { margin-bottom: 44px; }
+.why-text p:last-child { margin-bottom: 0; }
+
+.contact-sub { left: 298px; top: 2364px; width: 760px; font-size: 17px; line-height: 27px; color: #f0f0f0; }
+.field { left: 338px; width: 748px; }
+.field label { position: absolute; left: 0; top: 0; font-size: 12px; line-height: 14px; color: #a8a8a8; }
+.field input, .field textarea { position: absolute; left: 0; right: 0; top: 18px; bottom: 0; background: transparent; border: 0; border-bottom: 2px solid #d4d4d4; outline: none; color: #fff; font: 400 18px 'Poppins', sans-serif; padding: 0 4px; resize: none; }
+.field input:focus, .field textarea:focus { border-bottom-color: #b7c1d4; }
+.send { left: 620px; top: 3018px; width: 200px; text-align: center; background: none; border: 0; cursor: pointer; font: 700 13px/18px 'Poppins', sans-serif; color: #fff; letter-spacing: 0.5px; text-decoration: underline; text-underline-offset: 6px; }
+.insta { left: 1204px; top: 3143px; width: 64px; height: 64px; display: block; }
+</style>
+</head>
+<body>
+<div id="scaler">
+<div class="frame">
+
+  <nav class="abs nav">
+    <a href="#">Home</a><a href="#about">About</a><a href="#work">Work</a>
+  </nav>
+ 
+  <svg class="abs logo" viewBox="0 0 100 100" aria-label="logo">
+    <defs>
+      <radialGradient id="lg" cx="50%" cy="35%" r="70%">
+        <stop offset="0" stop-color="#5aa0e8"/><stop offset="1" stop-color="#16356b"/>
+      </radialGradient>
+    </defs>
+    <circle cx="50" cy="50" r="48" fill="url(#lg)" stroke="#e8edf7" stroke-width="3"/>
+    <path d="M14 58 Q30 44 50 56 T86 54 L86 66 Q68 76 50 68 T14 70 Z" fill="#fff" opacity=".92"/>
+    <path d="M30 40 L50 22 L70 40 Z" fill="#fff" opacity=".85"/>
+  </svg>
+
+  <div class="abs hello">Hello, I'm Aizhamal</div>
+  <h1 class="abs title">Progrmmer<br>Student</h1>
+  <a class="abs hero-link" href="#contact">Contact Me</a>
+  <div class="abs photo"><img src="WhatsApp Image 2026-10-16 at 09.16.47.jpeg" alt="Aizhamal"></div>
+
+  <h2 class="abs h2" id="about" style="left:99px; top:927px;">about me</h2>
+  <div class="abs rule" style="left:478px; top:965px; width:857px;"></div>
+  <p class="abs about-text">My name is Aizhamal. I am someone who strives to grow and try new things. For me, it is important not just to complete tasks, but to understand their meaning and find my own approach. I enjoy learning, finding inspiration in details, and applying it to both work and life.I am open to collaboration, but I can also work independently and find what I start.</p>
+
+  <div class="abs skill" style="left:200px;"><b>Java</b><span>Experience</span></div>
+  <div class="abs skill" style="left:547px;"><b>Python</b><span>Experience</span></div>
+  <div class="abs skill" style="left:984px;"><b>HTML</b><span>Experience</span></div>
+
+  <h2 class="abs h2" id="work" style="left:99px; top:1441px;">why me</h2>
+  <div class="abs rule" style="left:442px; top:1479px; width:893px;"></div>
+  <div class="abs why-text">
+    <p>I am reliable, motivated, and eager to grow. I bring fresh ideas, learn quickly, and always finish what I start. Choosing me means getting someone who works with care, creativity, and responsibility.</p>
+    <p>I am talented, versatile, and not limited to programming. Alongside my technical skills, I bring creativity, fresh ideas, and the ability to adapt to different tasks. Choosing me means getting someone reliable, motivated, and full of potential.</p>
+    <p>My goal is to bring not only skills, but also creativity, responsibility, and motivation to achieve great results together.</p>
+  </div>
+
+  <h2 class="abs h2" id="contact" style="left:117px; top:2253px;">Contact Me</h2>
+  <div class="abs rule" style="left:586px; top:2290px; width:767px;"></div>
+  <p class="abs contact-sub">I would be glad to work with you and contribute to the success of your company and projects.</p>
+
+  <form onsubmit="return false">
+    <div class="abs field" style="top:2500px; height:62px;"><label for="n">Name</label><input id="n" type="text"></div>
+    <div class="abs field" style="top:2633px; height:64px;"><label for="e">Email</label><input id="e" type="email"></div>
+    <div class="abs field" style="top:2777px; height:169px;"><label for="m">Message</label><textarea id="m"></textarea></div>
+    <button class="abs send" type="submit">SEND MESSAGE</button>
+  </form>
+
+  <a class="abs insta" href="https://instagram.com" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#fff" stroke-width="1.8">
+      <rect x="3" y="3" width="18" height="18" rx="5"/>
+      <circle cx="12" cy="12" r="4.2"/>
+      <circle cx="17.3" cy="6.7" r="1" fill="#fff" stroke="none"/>
+    </svg>
+  </a>
+</div>
+</div>
+
+<script>
+  function fit() {
+    var s = Math.min(1, window.innerWidth / 1440);
+    document.getElementById('scaler').style.transform = 'scale(' + s + ')';
+    document.body.style.height = (3280 * s) + 'px';
+  }
+  window.addEventListener('resize', fit); fit();
+</script>
+</body>
+</html>
